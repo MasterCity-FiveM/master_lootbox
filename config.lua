@@ -18,7 +18,7 @@ Config["item_chests"] = {
 			{ money = 500, tier = 1 },
 			{ item = "mp3player", amount=1, tier = 3 },
 			{ weapon = "weapon_pistol", amount=1, tier = 4 },
-			{ weapon = "weapon_appistol", amount=1, tier = 5 },
+			{ money = 100, amount=1, tier = 5 },
 		}
 	},
 
@@ -29,8 +29,8 @@ Config["item_chests"] = {
 			{ money = 2500, tier = 2 },
 			{ money = 1000, tier = 1 },
 			{ item = "mp3player", amount=1, tier = 3 },
-			{ weapon = "weapon_pistol50", amount=1, tier = 4 },
-			{ weapon = "weapon_appistol", amount=1, tier = 5 },
+			{ item = "codchest1", amount=1, tier = 3 },
+			{ weapon = "weapon_pistol", amount=1, tier = 5 },
 		}
 	},
 	
@@ -40,21 +40,20 @@ Config["item_chests"] = {
 			{ money = 5000, tier = 3 },
 			{ money = 3500, tier = 2 },
 			{ money = 2500, tier = 1 },
-			{ weapon = "weapon_appistol", amount=1, tier = 4 },
-			{ weapon = "weapon_minismg", amount=1, tier = 5 },
+			{ weapon = "weapon_appistol", amount=1, tier = 5 },
+			{ weapon = "weapon_pistol", amount=1, tier = 4 },
 		}
 	},
 	
 	["codchest4"] = {
 		name = "Case #4",
 		list = {
-			{ money = 20000, tier = 5 },
+			{ money = 11000, tier = 5 },
 			{ money = 10000, tier = 3 },
-			{ money = 7500, tier = 2 },
+			{ money = 8000, tier = 2 },
 			{ money = 5000, tier = 1 },
-			{ weapon = "weapon_smg", amount=1, tier = 4 },
-			{ weapon = "weapon_assaultrifle", amount=1, tier = 5 },
-			{ weapon = "weapon_assaultsmg", amount=1, tier = 5 },
+			{ weapon = "weapon_smg", amount=1, tier = 5 },
+			{ weapon = "weapon_appistol", amount=1, tier = 4},
 		}
 	},
 }
